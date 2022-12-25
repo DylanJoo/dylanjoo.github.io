@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 I am a research assistant in the Research Center for Information Technology Innovation at Academia Sinica. 
-I currently work in the [CFDA & CLIP Labs](http://cfda.csie.org/) and advised by Professor [Chuan-Ju Wang](http://cfda.csie.org/~cjwang/).
 Previously, I was a graduate student advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou. I used to work on econometric modeling and stochastic optimization.
-My research interests are in **natural language processing (NLP)**, especially **information retrieval (IR)**. The more specific sub-topics include:
+
+I currently work in the [CFDA & CLIP Labs](http://cfda.csie.org/) and advised by Professor [Chuan-Ju Wang](http://cfda.csie.org/~cjwang/).
+My research interests are in **natural language processing (NLP)**, especially **information retrieval (IR)**. 
+The specific sub-topics include
 
 1. Representation learning for IR
     * Multi-view text representations 
@@ -26,7 +28,7 @@ My research interests are in **natural language processing (NLP)**, especially *
     * Financial report analysis
     * Domain-specific applications (adaptation)
 
-I have also worked on some topics less related or un-related to NLP and IR:
+Also, I have worked on some topics less related or un-related to NLP and IR
 1. Recommender systems
     * Faster recommendation via clustered user-item interactions
     * News recommendation with dense retrieval 
