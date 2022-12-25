@@ -28,7 +28,7 @@ The specific sub-topics include
     * Financial report analysis
     * Domain-specific applications (adaptation)
 
-Also, I have worked on some topics less related or un-related to NLP and IR
+Also, I have worked on some topics less related to NLP and IR
 1. Recommender systems
     * Faster recommendation via clustered user-item interactions
     * News recommendation with dense retrieval 
