@@ -2,7 +2,7 @@
 layout: single
 title: "Publications"
 permalink: /publications/
-<!-- author_profile: true -->
+author_profile: true
 ---
 
 <br>*Text-to-text Multi-view Learning For Passage Re-ranking*
