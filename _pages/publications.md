@@ -20,7 +20,7 @@ author_profile: true
 
 <br>FISH: A Financial Interactive System for Signal Highlighting
 <br><sub>**Jia-Huei Ju**<sup>\*</sup>, Ta-Wei Huang<sup>\*</sup>, Yu-Shiang Huang, Cheng-Wei Lin, Yi-Shyuan Chiang, and Chuan-Ju Wang </sub>
-<br><sub> Submitted to EACL 2023, under review | [Paper](https://dylanjoo.github.io/files/fish.paper.pdf)</sub>
+<br><sub> Submitted to EACL 2023, under review | [Paper](https://dylanjoo.github.io/files/fish.paper.pdf) | [Demo](https://fish-web-fish.de.r.appspot.com/) </sub>
 <br><sub>(<sup>\*</sup> indicates equal contributions)</sub>
 
 <!-- {% if author.googlescholar %} -->
