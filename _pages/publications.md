@@ -4,13 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<br>[Text-to-text Multi-view Learning for Passage Re-ranking](https://dl.acm.org/doi/10.1145/3404835.3463048)
+<br>Text-to-text Multi-view Learning for Passage Re-ranking
 <br><sub>**Jia-Huei Ju**, Jheng-Hong Yang, Chuan-Ju Wang</sub>
-<br><sub> In Proc. of SIGIR 2021 | [paper](https://dylanjoo.github.io/files/t5.multiview.paper.pdf) | [slide](https://dylanjoo.github.io/files/t5.multiview.slide.pdf)</sub>
+<br><sub> In Proc. of [SIGIR 2021](https://dl.acm.org/doi/10.1145/3404835.3463048) | [paper](https://dylanjoo.github.io/files/t5.multiview.paper.pdf) | [slide](https://dylanjoo.github.io/files/t5.multiview.slide.pdf)</sub>
 
 <br>Paraphrase Query Expansion and Multi-view Point-wise Ranking
 <br><sub>**Jia-Huei Ju**, Chih-Ting Yeh, Cheng-Wei Lin, Chia-Ying Tsao, Jun-En Ding, Ming-Feng Tsai, and Chuan-Ju Wang</sub>
-<br><sub> In Proc. of TREC 2021  | [paper](https://dl.acm.org/doi/10.1145/3404835.3463048) | [slide](https://dylanjoo.github.io/files/trec.cast.2021.slide.pdf)</sub>
+<br><sub> In Proc. of TREC 2021  | [paper](https://trec.nist.gov/pubs/trec30/papers/CFDA_CLIP-CAsT.pdf) | [slide](https://dylanjoo.github.io/files/trec.cast.2021.slide.pdf)</sub>
 
 --- 
 <br>A Multistage Pipeline for Discovering Rationales in Financial Reports
