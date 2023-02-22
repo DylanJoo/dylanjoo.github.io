@@ -2,7 +2,7 @@
 permalink: /projects/
 title: "Research Projects"
 layout: single
-excerpt: "About me"
+excerpt: "Research Projects"
 author_profile: true
 redirect_from: 
   - /project/
@@ -10,40 +10,38 @@ redirect_from:
 
 ## Working Projects
 ---
-<br>Multilingual IR (MIRACL)
+<br>Multilingual IR 
+- MIRACL leaderboard @ WSDM 2023
 - Crosslingual relevance transfer for multilingual dense retrieval.
-<br>[github](https://github.com/DylanJoo/multilingual-ir)
+<br>[codes](https://github.com/DylanJoo/multilingual-ir)
 
 <br>Efficient Personalized Retrieval for News Recommendation 
-<br>[github:TBD](#)
+<br>[codes](#)
 
-<br>A Weakly Supervised Learning Framework for Conversational Search
-<br>[github](https://github.com/DylanJoo/ConvRerank)
+<br>Late-interaction conversational query embeddings
+- Decoupled the query embeddings of conversational for longer diaglogue history.
+<br>[codes](https://github.com/DylanJoo/CIS)
 
-### Academic-industry collaboration
+<br>Self-supervised Dense Retriver for Open-domain Question Answering
+<br>[codes](https://github.com/DylanJoo/odqa)
 
-## Side Projects 
 ---
-I have some (rough) ideas and I would do some exps.
-
+## Other Projects 
 <br>ColBERTZoo
 - Exploring appropriate objectives for dense passage retrievers.
-<br>[github](https://github.com/DylanJoo/ColBertZoo)
+<br>[codes](https://github.com/DylanJoo/ColBertZoo)
 
 <br>BERT-Lime
 - Learning to explain mdoel predictions.
 - Generating rationales for supervised learning tasks.
-<br>[github](https://github.com/DylanJoo/bert_lime)
+<br>[codes](https://github.com/DylanJoo/bert_lime)
 
 <br>BERT rationale extraction
 - Predicting important words for sentence(s) relationship.
-<br>[github](https://github.com/DylanJoo/sentence_highlight)
-
-<br>Late-interaction conversational query embeddings
-- Decoupled the query embeddings of conversational for longer diaglogue history.
-<br>[github](https://github.com/DylanJoo/CIS)
+<br>[codes](https://github.com/DylanJoo/sentence_highlight)
 
 <br>Multiview learning
 - Learning text representation with mutiple views.
-<br>[github](https://github.com/DylanJoo/multiview-representation):
+<br>[codes](https://github.com/DylanJoo/multiview-representation):
 
+### Academic-industry collaboration
