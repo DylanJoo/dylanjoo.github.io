@@ -23,10 +23,10 @@ author_profile: true
 <br><sub> In Proc. of TREC 2021  | [paper](https://trec.nist.gov/pubs/trec30/papers/CFDA_CLIP-CAsT.pdf) | [slide](https://dylanjoo.github.io/files/trec.cast.2021.slide.pdf)</sub>
 <br>CFDA & CLIP at TREC 2022 Conversational Assistance Track (CAsT)
 <br><sub>**Jia-Huei Ju**, Sheng-Chieh Lin, Li-Young Chang, Ming-Feng Tsai, and Chuan-Ju Wang</sub>
-<br><sub> TREC 2022  | [paper](#) | [slide](https://dylanjoo.github.io/files/trec.cast.2022.slide.pdf)</sub>
+<br><sub> In Proc. of TREC 2022  | [paper](#) | [slide](https://dylanjoo.github.io/files/trec.cast.2022.slide.pdf)</sub>
 <br>CFDA & CLIP at TREC 2022 NeuCLIR Track
-<br><sub>**Jia-Huei Ju**, Wei-Chih Chen, Heng-Ta Chang, Cheng-Wei Lin, Ming-Feng Tsai, and Chuan-Ju Wang
-<br><sub> TREC 2022  | [paper](#) | [slide](https://dylanjoo.github.io/files/trec.neuclir.2022.slide.pdf)</sub>
+<br><sub>**Jia-Huei Ju**, Wei-Chih Chen, Heng-Ta Chang, Cheng-Wei Lin, Ming-Feng Tsai, and Chuan-Ju Wang</sub>
+<br><sub> In Proc. of TREC 2022  | [paper](#) | [slide](https://dylanjoo.github.io/files/trec.neuclir.2022.slide.pdf)</sub>
 
 ---
 ### Manuscripts/Preprints
