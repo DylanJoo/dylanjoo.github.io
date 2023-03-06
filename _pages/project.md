@@ -11,22 +11,33 @@ redirect_from:
 ## Working Projects
 ---
 <br>Multilingual IR 
-- MIRACL leaderboard @ WSDM 2023
+- Dense retrieval
 - Crosslingual relevance transfer for multilingual dense retrieval.
 <br>[codes](https://github.com/DylanJoo/multilingual-ir)
 
 <br>Efficient Personalized Retrieval for News Recommendation 
-<br>[codes](#)
-
-<br>Late-interaction conversational query embeddings
-- Decoupled the query embeddings of conversational for longer diaglogue history.
-<br>[codes](https://github.com/DylanJoo/CIS)
+- Contextualized recommendation
+<br>[codes](TBD)
 
 <br>Self-supervised Dense Retriver for Open-domain Question Answering
-<br>[codes](https://github.com/DylanJoo/odqa)
+- [?] Generative view 
+- [?] Retrieval-agumented training for retriever and reranker.
+<br>[codes](https://github.com/DylanJoo/DRQG)
+
+<br>Clarification question generation for interactive search.
+- Corpus-aware Clarification question generation 
+- Generating the clarification questions for conversational QA, or ad-hoc QA.
+- Extend from traditional question generation/suggestion/retrieval methods.
+<br>[codes](https://github.com/DylanJoo/CQG-for-Interactive-Search)
 
 ---
 ## Other Projects 
+<br>Late-interaction conversational query embeddings
+- Conversational dense retrieval
+- A follow up work of Contextualized query embeddings (CQE) for conversational search.
+- Decoupled the query embeddings of conversational for longer diaglogue history.
+<br>[codes](https://github.com/DylanJoo/CIS)
+
 <br>ColBERTZoo
 - Exploring appropriate objectives for dense passage retrievers.
 <br>[codes](https://github.com/DylanJoo/ColBertZoo)
@@ -42,6 +53,7 @@ redirect_from:
 
 <br>Multiview learning
 - Learning text representation with mutiple views.
+- A follow work for T5 passage re-ranking models.
 <br>[codes](https://github.com/DylanJoo/multiview-representation):
 
 ### Academic-industry collaboration
