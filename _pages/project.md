@@ -17,18 +17,16 @@ redirect_from:
 
 <br>Efficient Personalized Retrieval for News Recommendation 
 - Contextualized recommendation
-<br>[codes](TBD)
+<br>[codes](#)
 
 <br>Self-supervised Dense Retriver for Open-domain Question Answering
-- [?] Generative view 
-- [?] Retrieval-agumented training for retriever and reranker.
-<br>[codes](https://github.com/DylanJoo/DRQG)
+- Retrieval-agumented training for retriever and reranker.
+- Data augmentation for out-domain tasks
 
 <br>Clarification question generation for interactive search.
 - Corpus-aware Clarification question generation 
 - Generating the clarification questions for conversational QA, or ad-hoc QA.
 - Extend from traditional question generation/suggestion/retrieval methods.
-<br>[codes](https://github.com/DylanJoo/CQG-for-Interactive-Search)
 
 ---
 ## Other Projects 
@@ -56,4 +54,3 @@ redirect_from:
 - A follow work for T5 passage re-ranking models.
 <br>[codes](https://github.com/DylanJoo/multiview-representation):
 
-### Academic-industry collaboration
