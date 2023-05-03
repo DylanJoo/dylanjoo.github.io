@@ -10,15 +10,15 @@ author_profile: true
 ## Peer reviewed papers
 <br>A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals in Financial Reports
 <br><sub>**Jia-Huei Ju**, Yu-Shiang Huang, Cheng-Wei Lin, Che Lin, and Chuan-Ju Wang</sub>
-<br><sub> To present at ACL 2023 | [paper](https://dylanjoo.github.io/files/acl2023.paper.pdf) [slide](https://dylanjoo.github.io/files/acl2023.slide.pd)</sub>
+<br><sub> To present at ACL 2023 | [paper](https://dylanjoo.github.io/files/acl.2023.paper.pdf) [slide](https://dylanjoo.github.io/files/acl.2023.slide.pd)</sub>
 
 <br>Improving Conversational Passage Re-ranking with View Ensemble
 <br><sub>**Jia-Huei Ju**, Sheng-Chieh Lin, Ming-Feng Tsai, and Chuan-Ju Wang</sub>
-<br><sub> To present at SIGIR 2023 | [paper](https://dylanjoo.github.io/files/sigir2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir2023.slide.pdf)</sub>
+<br><sub> To present at SIGIR 2023 | [paper](https://dylanjoo.github.io/files/sigir.2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir.2023.slide.pdf)</sub>
 
 <br>FISH: A Financial Interactive System for Signal Highlighting
 <br><sub>**Jia-Huei Ju**<sup>\*</sup>, Ta-Wei Huang<sup>\*</sup>, Yu-Shiang Huang, Cheng-Wei Lin, Yi-Shyuan Chiang, and Chuan-Ju Wang </sub>
-<br><sub> In Proc. of EACL 2023 (Demo) | [paper](https://dylanjoo.github.io/files/fish.paper.pdf) | [demo](https://fish-web-fish.de.r.appspot.com/) </sub>
+<br><sub> In Proc. of EACL 2023 (Demo) | [paper](https://dylanjoo.github.io/files/eacl.2023.demo.paper.pdf) | [slide](https://dylanjoo.github.io/files/eacl.2023.demo.slide.pdf) | [demo](https://fish-web-fish.de.r.appspot.com/) </sub>
 <br><sub><sup>\*</sup> indicates equal contributions</sub>
 
 <br>Text-to-text Multi-view Learning for Passage Re-ranking
