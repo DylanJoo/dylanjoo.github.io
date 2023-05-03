@@ -6,13 +6,12 @@ author_profile: true
 ---
 
 ## Papers under review and manuscripts
-<!-- <br>A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals in Financial Reports -->
-<br>Topic: Financial NLP Applications
-<br><sub>**Jia-Huei Ju**, Yu-Shiang Huang, Cheng-Wei Lin, Che Lin, and Chuan-Ju Wang</sub>
-<br><sub> Submitted to ACL 2023 | [paper](https://dylanjoo.github.io/files/acl2023.pdf) </sub>
 
-<!-- <br>Improving Conversational Passage Re-ranking with View Ensemble -->
 ## Peer reviewed papers
+<br>A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals in Financial Reports
+<br><sub>**Jia-Huei Ju**, Yu-Shiang Huang, Cheng-Wei Lin, Che Lin, and Chuan-Ju Wang</sub>
+<br><sub> To present at ACL 2023 | [paper](https://dylanjoo.github.io/files/acl2023.paper.pdf) [slide](https://dylanjoo.github.io/files/acl2023.slide.pd)</sub>
+
 <br>Improving Conversational Passage Re-ranking with View Ensemble
 <br><sub>**Jia-Huei Ju**, Sheng-Chieh Lin, Ming-Feng Tsai, and Chuan-Ju Wang</sub>
 <br><sub> To present at SIGIR 2023 | [paper](https://dylanjoo.github.io/files/sigir2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir2023.slide.pdf)</sub>
