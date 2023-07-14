@@ -17,21 +17,20 @@ Particularly, the research topics I am working on include
 1. Retrieval-based Langugage Models
     * Retrieval-enhanced question answering (e.g., FiD)
     * Retrieval-guided KNN language models
-2. Domain-adaptive Retrieval (data-efficient) 
-    * Question generation 
+2. Zero-shot/Few-shot Learning for Domain-adaptive Information Retrieval 
+    * Question generation for dense retrieval
 3. Multilinguality
     * End-to-end crosslingual dense retrieval
     * Multilingual dense phrase retrieval for open-domain question answering
-    * Embedded sentence embeddings in langauges via interaction-level crosslingual alignment 
+    * Interaction-level crosslingual alignment for learning sentence embeddings in langauges
 4. Multimodal Retrieval
     * Image-text contrastive learning with multimodal hard negative
     * Multimedia retrieval applications (e.g., product search, image recommendation)
 5. Interactive (conversational) Search
     * Mixed-initiative reseponse generation (e.g., Clarifying questions)
-    * Open-domain ConvQA with personalized dialogue 
-    * User dialogue simulation
+    * Personalized Open-domain ConvQA 
+    * User utterance simulation
 6. Interpretable NLP Applications
-    * Domain-specific applications
 
 Also, I've worked on some topics less related to NLP, including
 1. Recommender systems
