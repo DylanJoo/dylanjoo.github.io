@@ -10,11 +10,11 @@ author_profile: true
 ## Peer reviewed papers
 <br>Improving Conversational Passage Re-ranking with View Ensemble
 <br><sub>**Jia-Huei Ju**, Sheng-Chieh Lin, Ming-Feng Tsai, and Chuan-Ju Wang</sub>
-<br><sub> To present at SIGIR 2023 | [paper](https://dylanjoo.github.io/files/sigir.2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir.2023.slide.pdf)</sub>
+<br><sub> In Proc. SIGIR 2023 | [paper](https://dylanjoo.github.io/files/sigir.2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir.2023.slide.pdf)</sub>
 
 <br>A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals in Financial Reports
 <br><sub>**Jia-Huei Ju**, Yu-Shiang Huang, Cheng-Wei Lin, Che Lin, and Chuan-Ju Wang</sub>
-<br><sub> In Proc. of ACL 2023 | [paper](https://dylanjoo.github.io/files/acl.2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/acl.2023.slide.pd)</sub>
+<br><sub> In Proc. of ACL 2023 | [paper](https://dylanjoo.github.io/files/acl.2023.paper.pdf) | [slide](https://dylanjoo.github.io/files/acl.2023.slide.pdf)</sub>
 
 <br>FISH: A Financial Interactive System for Signal Highlighting
 <br><sub>**Jia-Huei Ju**<sup>\*</sup>, Ta-Wei Huang<sup>\*</sup>, Yu-Shiang Huang, Cheng-Wei Lin, Yi-Shyuan Chiang, and Chuan-Ju Wang </sub>
@@ -23,7 +23,7 @@ author_profile: true
 
 <br>Text-to-text Multi-view Learning for Passage Re-ranking
 <br><sub>**Jia-Huei Ju**, Jheng-Hong Yang, Chuan-Ju Wang</sub>
-<br><sub> In Proc. of [SIGIR 2021](https://dl.acm.org/doi/10.1145/3404835.3463048) | [paper](https://dylanjoo.github.io/files/sigir2021.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir2021.slide.pdf)</sub>
+<br><sub> In Proc. of [SIGIR 2021](https://dl.acm.org/doi/10.1145/3404835.3463048) | [paper](https://dylanjoo.github.io/files/sigir.2021.paper.pdf) | [slide](https://dylanjoo.github.io/files/sigir.2021.slide.pdf)</sub>
 
 ## Non-peer reviewed papers
 <br>Paraphrase Query Expansion and Multi-view Point-wise Ranking
