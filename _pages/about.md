@@ -9,7 +9,7 @@ redirect_from:
 ---
 Hi! I am Jia-Huei (Dylan) Ju, a full-time research assistant in the Research Center for Information Technology Innovation (CITI) at Academia Sinica in Taiwan. 
 Currently, I work in the Computational Finance and Data Analytics and Computational Linguistics and Information Processing [CFDA & CLIP Labs](http://cfda.csie.org/) under the guidance of Professor [Chuan-Ju Wang](http://cfda.csie.org/~cjwang/).
-Previously, I completed my master's degree in Management Information Systems at National Chengchi University (NCCU) and was advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou. 
+Previously, I completed my master's degree in Management Information Systems at National Chengchi University (NCCU). During my master's degree, I worked on econometric modeling and stochastic optimization and was advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou.
 
 My research interests include natural language processing and information retrieval, specifically in the areas of 
 
