@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dylan J.H. Ju"
+title                    : "Dylan J.-H. Ju"
 title_separator          : "-"
-name                     : &name "Dylan JH Ju"
+name                     : &name "Dylan Jia-Huei Ju"
 description              : &description "personal description"
 url                      : https://dylanjoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "朱家輝"
-  avatar           : "dylan_2019.png"
-  bio              : "CFDA Lab <br> @ Academia Sinica"
-  location         : "Taipei, Taiwan"
+  avatar           : "dylan_2024.png"
+  bio              : "PhD student <br> @ IRLab, UvA"
+  location         : "Amsterdam, Netherlands"
   employer         :
   pubmed           : "#"
   googlescholar    : "https://scholar.google.com.tw/citations?user=opuX9nEAAAAJ&hl=zh-TW&oi=ao"
-  email            : "jhjoo#citi.sinica.edu.tw"
+  email            : "jhju@uva.nl"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
