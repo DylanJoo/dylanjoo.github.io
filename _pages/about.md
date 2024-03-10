@@ -36,40 +36,28 @@ redirect_from:
 <!-- Feel free to reach out through my email: jhjoo[at]citi.sinica.edu.tw. -->
 <!-- I welcome any inquiries or feedback regarding my research interests and look forward to discussing any potential research ideas! -->
 
-Hi! I am Jia-Huei (Dylan) Ju, a PhD student at University of Amsterdam.
-Currently, I work in the [IRLab](https://irlab.science.uva.nl/) and is supervised by [Dr. Andrew Yates](https://andrewyates.net/) starting from 2024.
-My research interests include natural language processing and neural information retrieval.
+Hi there! I'm Jia-Huei (Dylan) Ju, currently pursuing my PhD at the University of Amsterdam. 
+I work at the [IRLab](https://irlab.science.uva.nl/) and am under the supervision of [Dr. Andrew Yates](https://andrewyates.net/) since 2024. 
+My research focuses on natural language processing and neural information retrieval.
 
-Previously, I worked as a full-time research assistant in the Research Center for IT Innovation at Academia Sinica, Taiwan.
-I completed my master's degree in Management Information Systems at National Chengchi University, 
-and was advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou.
-During my master's degree, I worked on econometric modeling and stochastic optimization.
+Previously, I served as a full-time research assistant at the Research Center for IT Innovation at Academia Sinica, and was supervised by [Prof. Chuan-Ju Wang](http://cfda.csie.org/~cjwang/). 
+I completed my master's degree in Management Information Systems from National Chengchi University, where I was advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou. During my master's program, I specialized in econometric modeling and stochastic optimization.
 
-
-My recent specific research topics are representation learning and retrieval-augmented generation. 
-The other
+My recent research interests revolve around representation learning and retrieval-augmented generation, encompassing:
 
 1. Retrieval-enhanced machine learning
     * Enhanced information access
     * Knowledge/context management for multi-stage RAG
-    * Retrieval-based langauge modeling via in-context learning
+    * Retrieval-based language modeling via in-context learning
 2. Neural information retrieval (text)
     * Out-of-domain dataset augmentation for weakly-supervised text retrieval
-    * Unsupervised representation learning for domain-specific retrieval appraoches
-3. Specialized retrieval methods
+    * Unsupervised representation learning for domain-specific retrieval approaches
+3. Specialized text ranking methods
     * Instruction-followed retrieval approaches for knowledge-intensive tasks
-4. Interactive (conversational) search 
-    * End-to-end mixed-initiative reseponse generation
+    * Passage re-ranking and candidate pruning
+4. Interactive (conversational) search
+    * End-to-end mixed-initiative response generation
     * Personalized open-domain conversational question answering
 
-<!-- 4. Multimodal retrieval -->
-<!--     * Image-text contrastive learning with multimodal hard negative -->
-<!--     * Multimedia retrieval applications (e.g., product search, image recommendation) -->
-<!-- 5. Multilinguality -->
-<!--     * Transferring English to low-source language -->
-<!--     * Multilingual dense phrase retrieval for crosslingual open-domain question answering -->
-<!--     * Interaction-level crosslingual alignment for learning sentence embeddings in different languages -->
-<!-- 6. Interpretable NLP applications -->
+Feel free to contact me via email: j.{lastname}[at]uva.nl. I'm open to inquiries and feedback related to my research interests and excited to explore potential research collaborations :)
 
-Feel free to reach out through my email: j.{lastname}[at]uva.nl
-I welcome any inquiries or feedback regarding my research interests and look forward to discussing any potential research ideas!
