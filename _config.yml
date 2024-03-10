@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dylan J.-H. Ju"
+title                    : "Dylan Jia-Huei Ju"
 title_separator          : "-"
-name                     : &name "Dylan Jia-Huei Ju"
+name                     : &name "Dylan J.-H. Ju"
 description              : &description "personal description"
 url                      : https://dylanjoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "朱家輝"
-  avatar           : "dylan_2024.png"
+  name             : "Dylan Ju"
+  avatar           : "dylan_2024.jpg"
   bio              : "PhD student <br> @ IRLab, UvA"
   location         : "Amsterdam, Netherlands"
   employer         :
