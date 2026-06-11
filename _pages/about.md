@@ -38,7 +38,7 @@ redirect_from:
 
 Hi there! I’m Jia-Huei (Dylan) Ju, currently pursuing a PhD at the University of Amsterdam. I work at the [IRLab](https://irlab.science.uva.nl/) under the supervision of [Dr. Andrew Yates](https://andrewyates.net/) since 2024. My research focuses on natural language processing and neural information retrieval.
 
-Previously, I worked as a full-time research assistant at the Research Center for IT Innovation at Academia Sinica, under the supervision of [Prof. Chuan-Ju Wang](http://cfda.csie  .org/~cjwang/). I earned my master’s degree in Management Information Systems from National Chengchi University, where I was advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou. During my master’s program, I specialized in econometric modeling and stochastic optimization.
+Previously, I worked as a full-time research assistant at the Research Center for IT Innovation at Academia Sinica, under the supervision of [Prof. Chuan-Ju Wang](http://cfda.csie.org/~cjwang/). I earned my master’s degree in Management Information Systems from National Chengchi University, where I was advised by Professors Howard Hao-Chun Chuang and Yen-Chun Chou. During my master’s program, I specialized in econometric modeling and stochastic optimization.
 
 My recent research interests include representation learning and retrieval-augmented generation, with a focus on:
 
@@ -53,5 +53,5 @@ My recent research interests include representation learning and retrieval-augme
 3. Interactive search
     * Personalized conversational search
 
-Feel free to contact me via email: j.{lastname}[at]uva.nl. I'm open to inquiries and feedback related to my research interests and excited to explore potential research collaborations :)
+Feel free to contact me via email: j.ju[at]uva.nl. I'm open to inquiries and feedback related to my research interests and excited to explore potential research collaborations :)
 

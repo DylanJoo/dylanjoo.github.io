@@ -20,7 +20,7 @@ redirect_from:
 <br>[codes](#)
 
 <br>Self-supervised Dense Retriver for Open-domain Question Answering
-- Retrieval-agumented training for retriever and reranker.
+- Retrieval-augmented training for retriever and reranker.
 - Data augmentation for out-domain tasks
 
 <br>Clarification question generation for interactive search.
@@ -33,7 +33,7 @@ redirect_from:
 <br>Late-interaction conversational query embeddings
 - Conversational dense retrieval
 - A follow up work of Contextualized query embeddings (CQE) for conversational search.
-- Decoupled the query embeddings of conversational for longer diaglogue history.
+- Decoupled the query embeddings of conversational for longer dialogue history.
 <br>[codes](https://github.com/DylanJoo/CIS)
 
 <br>ColBERTZoo
@@ -41,7 +41,7 @@ redirect_from:
 <br>[codes](https://github.com/DylanJoo/ColBertZoo)
 
 <br>BERT-Lime
-- Learning to explain mdoel predictions.
+- Learning to explain model predictions.
 - Generating rationales for supervised learning tasks.
 <br>[codes](https://github.com/DylanJoo/bert_lime)
 
@@ -50,7 +50,7 @@ redirect_from:
 <br>[codes](https://github.com/DylanJoo/sentence_highlight)
 
 <br>Multiview learning
-- Learning text representation with mutiple views.
+- Learning text representation with multiple views.
 - A follow work for T5 passage re-ranking models.
 <br>[codes](https://github.com/DylanJoo/multiview-representation):
 

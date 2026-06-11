@@ -1,0 +1,142 @@
+- id: ju2023improving
+  title: Improving Conversational Passage Re-ranking with View Ensemble
+  authors:
+  - Jia-Huei Ju
+  - Sheng-Chieh Lin
+  - Ming-Feng Tsai
+  - Chuan-Ju Wang
+  year: 2023
+  pubtype: conference
+  abbr: SIGIR
+  venue: Proceedings of the 46th International ACM SIGIR Conference on Research and
+    Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://dylanjoo.github.io/files/sigir.2023.paper.pdf
+    slides: https://dylanjoo.github.io/files/sigir.2023.slide.pdf
+- id: ju2023compare
+  title: A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals
+    in Financial Reports
+  authors:
+  - Jia-Huei Ju
+  - Yu-Shiang Huang
+  - Cheng-Wei Lin
+  - Che Lin
+  - Chuan-Ju Wang
+  year: 2023
+  pubtype: conference
+  abbr: ACL
+  venue: Proceedings of the 61st Annual Meeting of the Association for Computational
+    Linguistics
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://dylanjoo.github.io/files/acl.2023.paper.pdf
+    slides: https://dylanjoo.github.io/files/acl.2023.slide.pdf
+- id: ju2023fish
+  title: 'FISH: A Financial Interactive System for Signal Highlighting'
+  authors:
+  - Jia-Huei Ju
+  - Ta-Wei Huang
+  - Yu-Shiang Huang
+  - Cheng-Wei Lin
+  - Yi-Shyuan Chiang
+  - Chuan-Ju Wang
+  year: 2023
+  pubtype: demo
+  abbr: EACL
+  venue: 'Proceedings of the 17th Conference of the European Chapter of the Association
+    for Computational Linguistics: System Demonstrations'
+  abstract: ''
+  award: ''
+  selected: false
+  equal:
+  - Jia-Huei Ju
+  - Ta-Wei Huang
+  links:
+    paper: https://dylanjoo.github.io/files/eacl.2023.demo.paper.pdf
+    slides: https://dylanjoo.github.io/files/eacl.2023.demo.slide.pdf
+    demo: https://fish-web-fish.de.r.appspot.com/
+- id: ju2022cast
+  title: CFDA & CLIP at TREC 2022 Conversational Assistance Track (CAsT)
+  authors:
+  - Jia-Huei Ju
+  - Sheng-Chieh Lin
+  - Li-Young Chang
+  - Ming-Feng Tsai
+  - Chuan-Ju Wang
+  year: 2022
+  pubtype: workshop
+  abbr: TREC
+  venue: Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://trec.nist.gov/pubs/trec31/papers/CFDA_CLIP.C.pdf
+    slides: https://dylanjoo.github.io/files/trec.cast.2022.slide.pdf
+- id: ju2022neuclir
+  title: CFDA & CLIP at TREC 2022 NeuCLIR Track
+  authors:
+  - Jia-Huei Ju
+  - Wei-Chih Chen
+  - Heng-Ta Chang
+  - Cheng-Wei Lin
+  - Ming-Feng Tsai
+  - Chuan-Ju Wang
+  year: 2022
+  pubtype: workshop
+  abbr: TREC
+  venue: Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://trec.nist.gov/pubs/trec31/papers/CFDA_CLIP.N.pdf
+    slides: https://dylanjoo.github.io/files/trec.neuclir.2022.slide.pdf
+- id: ju2021text
+  title: Text-to-text Multi-view Learning for Passage Re-ranking
+  authors:
+  - Jia-Huei Ju
+  - Jheng-Hong Yang
+  - Chuan-Ju Wang
+  year: 2021
+  pubtype: conference
+  abbr: SIGIR
+  venue: Proceedings of the 44th International ACM SIGIR Conference on Research and
+    Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://dylanjoo.github.io/files/sigir.2021.paper.pdf
+    slides: https://dylanjoo.github.io/files/sigir.2021.slide.pdf
+- id: ju2021trec
+  title: Paraphrase Query Expansion and Multi-view Point-wise Ranking
+  authors:
+  - Jia-Huei Ju
+  - Chih-Ting Yeh
+  - Cheng-Wei Lin
+  - Chia-Ying Tsao
+  - Jun-En Ding
+  - Ming-Feng Tsai
+  - Chuan-Ju Wang
+  year: 2021
+  pubtype: workshop
+  abbr: TREC
+  venue: Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://trec.nist.gov/pubs/trec30/papers/CFDA_CLIP-CAsT.pdf
+    slides: https://dylanjoo.github.io/files/trec.cast.2021.slide.pdf
