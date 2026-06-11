@@ -1,3 +1,74 @@
+- id: ju2026cover
+  title: Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question Answerability
+  authors:
+  - Jia-Huei Ju
+  - Eugene Yang
+  - Trevor Adriaanse
+  - Suzan Verberne
+  - Andrew Yates
+  year: 2026
+  pubtype: conference
+  abbr: SIGIR
+  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://arxiv.org/abs/2605.28522
+- id: ju2026lancer
+  title: 'LANCER: LLM Reranking for Nugget Coverage'
+  authors:
+  - Jia-Huei Ju
+  - François G Landry
+  - Eugene Yang
+  - Suzan Verberne
+  - Andrew Yates
+  year: 2026
+  pubtype: conference
+  abbr: ECIR
+  venue: Advances in Information Retrieval -- Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://arxiv.org/abs/2601.22008
+- id: ju2025rag
+  title: Controlled Retrieval-Augmented Context Evaluation for Long-form RAG
+  authors:
+  - Jia-Huei Ju
+  - Suzan Verberne
+  - Maarten de Rijke
+  - Andrew Yates
+  year: 2025
+  pubtype: conference
+  abbr: EMNLP
+  venue: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://aclanthology.org/2025.findings-emnlp.1151/
+    code: https://github.com/DylanJoo/crux
+- id: ju2024diverse
+  title: Relevance-aware Diverse Query Generation for Out-of-domain Text Ranking
+  authors:
+  - Jia-Huei Ju
+  - Chao-Han Yang
+  - Szu-Wei Fu
+  - Ming-Feng Tsai
+  - Chuan-Ju Wang
+  year: 2024
+  pubtype: workshop
+  abbr: ACL
+  venue: Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links: {}
 - id: ju2023improving
   title: Improving Conversational Passage Re-ranking with View Ensemble
   authors:
