@@ -1,21 +1,3 @@
-- id: ju2026cover
-  title: 'Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question Answerability'
-  authors:
-  - Jia-Huei Ju
-  - Eugene Yang
-  - Trevor Adriaanse
-  - Suzan Verberne
-  - Andrew Yates
-  year: 2026
-  pubtype: conference
-  abbr: SIGIR
-  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval
-  abstract: ''
-  award: ''
-  selected: false
-  equal: []
-  links:
-    paper: https://arxiv.org/abs/2605.28522
 - id: ju2026lancer
   title: 'LANCER: LLM Reranking for Nugget Coverage'
   authors:
@@ -34,6 +16,24 @@
   equal: []
   links:
     paper: https://arxiv.org/abs/2601.22008
+- id: ju2026cover
+  title: 'Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question Answerability'
+  authors:
+  - Jia-Huei Ju
+  - Eugene Yang
+  - Trevor Adriaanse
+  - Suzan Verberne
+  - Andrew Yates
+  year: 2026
+  pubtype: conference
+  abbr: SIGIR
+  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://arxiv.org/abs/2605.28522
 - id: ju2025rag
   title: Controlled Retrieval-Augmented Context Evaluation for Long-form RAG
   authors:
