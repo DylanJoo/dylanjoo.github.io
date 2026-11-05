@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{%- assign a = site.author -%}
+<header class="intro">
+  <div class="intro-text">
+    <h1>{{ a.name }}</h1>
+    <p class="role">{{ a.role }} · <a href="{{ a.affiliation_url }}">{{ a.affiliation }}</a></p>
+
+    <p>
+      Hi! I'm a PhD student at the <a href="https://irlab.science.uva.nl/">IRLab</a>, University of Amsterdam,
+      supervised by <a href="https://andrewyates.net/">Andrew Yates</a> since 2024.
+      I work on natural language processing and neural information retrieval, recently on
+      <strong>retrieval-augmented generation</strong>, <strong>coverage-aware retrieval and reranking</strong>,
+      and <strong>representation learning</strong> for retrieval.
+    </p>
+    <p>
+      Previously, I was a full-time research assistant at the Research Center for IT Innovation, Academia Sinica,
+      working with <a href="http://cfda.csie.org/~cjwang/">Chuan-Ju Wang</a>. I received my M.S. in Management
+      Information Systems from National Chengchi University, advised by Howard Hao-Chun Chuang and Yen-Chun Chou,
+      where I worked on econometric modeling and stochastic optimization.
+    </p>
+    <p>I'm always happy to chat about research and potential collaborations: feel free to email me.</p>
+
+    <nav class="links">
+      <a href="mailto:{{ a.email }}">Email</a>
+      <a href="{{ a.cv | relative_url }}">CV</a>
+      <a href="{{ a.scholar }}">Scholar</a>
+      <a href="{{ a.github }}">GitHub</a>
+      <a href="{{ a.x }}">X</a>
+      <a href="{{ a.orcid }}">ORCID</a>
+    </nav>
+  </div>
+  <img class="photo" src="{{ a.photo | relative_url }}" alt="Photo of {{ a.name }}">
+</header>
+
+{%- if site.data.news.size > 0 %}
+<section>
+  <h2>News</h2>
+  <ul class="news">
+    {%- for item in site.data.news limit: 6 %}
+    <li><span class="date">{{ item.date }}</span><span>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+{%- assign main_pubs = pubs | where_exp: "p", "p.pubtype != 'workshop'" -%}
+{%- assign ws_pubs = pubs | where: "pubtype", "workshop" %}
+<section>
+  <h2>Publications</h2>
+  <ul class="pubs">
+    {%- for pub in main_pubs %}{% include pub.html pub=pub %}{% endfor %}
+  </ul>
+
+  {%- if ws_pubs.size > 0 %}
+  <h3>Workshops &amp; shared tasks</h3>
+  <ul class="pubs">
+    {%- for pub in ws_pubs %}{% include pub.html pub=pub %}{% endfor %}
+  </ul>
+  {%- endif %}
+</section>

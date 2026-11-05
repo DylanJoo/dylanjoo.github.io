@@ -1,0 +1,25 @@
+{%- assign pub = include.pub -%}
+<li class="pub">
+  <div class="pub-title">
+    {%- if pub.abbr != "" %}<span class="badge">{{ pub.abbr }}{% if include.show_year %} {{ pub.year }}{% endif %}</span>{% endif %}
+    {%- assign title_link = pub.links.paper -%}
+    {%- if title_link %}<a href="{{ title_link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+    {%- if pub.award != "" %} <span class="award">{{ pub.award }}</span>{% endif %}
+  </div>
+  <div class="pub-authors">
+    {%- for author in pub.authors -%}
+      {%- if author contains site.self_name -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+      {%- if pub.equal contains author %}<sup>*</sup>{% endif -%}
+      {%- unless forloop.last %}, {% endunless -%}
+    {%- endfor -%}
+  </div>
+  <div class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}{% if pub.equal.size > 0 %} <span class="muted">(* equal contribution)</span>{% endif %}</div>
+  {%- if pub.links.size > 0 or pub.abstract != "" %}
+  <div class="pub-links">
+    {%- for link in pub.links %}<a href="{{ link[1] }}">{{ link[0] }}</a>{% endfor -%}
+    {%- if pub.abstract != "" %}
+    <details><summary>abstract</summary><p>{{ pub.abstract }}</p></details>
+    {%- endif %}
+  </div>
+  {%- endif %}
+</li>

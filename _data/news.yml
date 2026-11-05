@@ -1,0 +1,9 @@
+# Newest first. `date` is free text; `text` supports Markdown.
+- date: 2026
+  text: '"Search for Coverage" accepted at **SIGIR 2026**.'
+- date: 2026
+  text: '"LANCER: LLM Reranking for Nugget Coverage" accepted at **ECIR 2026**.'
+- date: 2025
+  text: '"Controlled Retrieval-Augmented Context Evaluation for Long-form RAG" accepted at **EMNLP 2025 Findings**.'
+- date: Mar 2024
+  text: Started my PhD at [IRLab](https://irlab.science.uva.nl/), University of Amsterdam, with Andrew Yates.
