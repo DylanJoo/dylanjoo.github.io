@@ -1,11 +1,18 @@
 ---
-layout: single
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: publications
+description: Publications in reverse chronological order. * denotes equal contribution. See also my <a href="https://scholar.google.com/citations?user=opuX9nEAAAAJ">Google Scholar</a> profile.
+nav: true
+nav_order: 1
 ---
 
-{% include publications-list.html %}
+<!-- _pages/publications.md -->
 
----
-<sub>Also see my [Google Scholar profile]({{ site.author.googlescholar }}).</sub>
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>

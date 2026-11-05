@@ -1,0 +1,11 @@
+# Badge links/colors for the `abbr` field in papers.bib.
+"SIGIR":
+  url: https://sigir.org/
+"EMNLP":
+  url: https://aclanthology.org/
+"ACL":
+  url: https://aclanthology.org/
+"EACL":
+  url: https://aclanthology.org/
+"TREC":
+  url: https://trec.nist.gov/

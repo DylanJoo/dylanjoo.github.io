@@ -1,0 +1,8 @@
+# Map co-author last names (lowercase) to profile links; they become clickable in publication lists.
+"yates":
+  - firstname: ["Andrew", "A."]
+    url: https://andrewyates.net/
+
+"wang":
+  - firstname: ["Chuan-Ju", "C.-J."]
+    url: http://cfda.csie.org/~cjwang/
