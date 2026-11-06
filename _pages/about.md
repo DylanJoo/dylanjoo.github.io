@@ -12,7 +12,7 @@ Hi! I’m Jia-Huei (Dylan) Ju, a PhD student at Johns Hopkins University, co-adv
 
 My research is in information retrieval and natural language processing, with a focus on retrieval-augmented generation (RAG). I design retrieval systems that efficiently augment knowledge for agents. I'm particularly interested in how knowledge should be represented, and how human can use and acquire knowledge more efficiently.
 
-Currently, I study how retrieval should manage knowledge for LLMs acting as lifelong agents. I focus on three properties of retrieved context: *information coverage*, so that the context as a whole covers all the knowledge a task needs; *context editability*, so that it stays up to date as information and information needs change; and *knowledge reusability*, so that it can serve as a reusable memory shared across tasks, sessions, and agents.
+Currently, I study how retrieval should manage knowledge for LLMs acting as lifelong agents. I focus on three properties of retrieved context: **information coverage**, so that the context as a whole covers all the knowledge a task needs; **context editability**, so that it stays up to date as information and information needs change; and **knowledge reusability**, so that it can serve as a reusable memory shared across tasks, sessions, and agents.
 
 In addition to these directions, I'm also interested in exploring cognitive science, neuroscience, and other interdisciplinary problems where retrieval can be part of the solution. If you're working on a problem where retrieval might help. I'd be happy to brainstorm and chat! Feel free to reach out at jju8[at]jh.edu.
 
