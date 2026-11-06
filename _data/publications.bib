@@ -8,7 +8,10 @@
 %                               _includes/publications-list.html)
 %   type    = {workshop}        override auto-detected type
 %                               (conference | journal | demo | workshop | preprint)
-%   paper   = {url}             PDF / paper link
+%                               preprint (or @misc) = shown only under the "Preprints" tab;
+%                               use abbr = {Preprint} for the venue line
+%   paper   = {url}             official paper page (ACM / ACL Anthology / ...)
+%   arxiv   = {url}             arXiv version, shown as a separate link
 %   slides  = {url}
 %   code    = {url}
 %   poster  = {url}
@@ -22,6 +25,18 @@
 
 % ---------- Peer-reviewed ----------
 
+@inproceedings{hong2026sembridge,
+  title     = {{SemBridge}: Language Transfer in Sparse Encoders via Multilingual Semantic Bridge},
+  author    = {Hong, Seongtae and Jang, Youngjoon and Ju, Jia-Huei and Moon, Hyeonseok and Lim, Heuiseok},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2026},
+  abbr      = {EMNLP},
+  topic     = {Multilingual \& Multimodal Retrieval},
+  doi       = {10.18653/2026.emnlp-main.622},
+  paper     = {https://aclanthology.org/2026.emnlp-main.622/},
+  arxiv     = {https://arxiv.org/abs/2605.26002}
+}
+
 @inproceedings{ju2026cover,
   title     = {Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question Answerability},
   author    = {Ju, Jia-Huei and Yang, Eugene and Adriaanse, Trevor and Verberne, Suzan and Yates, Andrew},
@@ -30,7 +45,8 @@
   abbr      = {SIGIR},
   topic     = {Coverage-aware Retrieval \& RAG},
   doi       = {10.1145/3805712.3809752},
-  paper     = {https://arxiv.org/abs/2605.28522}
+  paper     = {https://doi.org/10.1145/3805712.3809752},
+  arxiv     = {https://arxiv.org/abs/2605.28522}
 }
 
 @inproceedings{ju2026lancer,
@@ -41,7 +57,19 @@
   abbr      = {ECIR},
   topic     = {Coverage-aware Retrieval \& RAG},
   doi       = {10.1007/978-3-032-21300-6_12},
-  paper     = {https://arxiv.org/abs/2601.22008}
+  paper     = {https://doi.org/10.1007/978-3-032-21300-6_12},
+  arxiv     = {https://arxiv.org/abs/2601.22008}
+}
+
+@inproceedings{mazuryk2026powerless,
+  title     = {The Powerless Noise: How Experimental Settings Shape the Reported Power of Noise},
+  author    = {Mazuryk, Micha{\l} and Dolmans, Fleur and Gehringer, Louis and Klaric, Ina and Ju, Jia-Huei and Aliannejadi, Mohammad},
+  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year      = {2026},
+  abbr      = {SIGIR},
+  topic     = {Coverage-aware Retrieval \& RAG},
+  doi       = {10.1145/3805712.3808556},
+  paper     = {https://doi.org/10.1145/3805712.3808556}
 }
 
 @inproceedings{nguyen2026milco,
@@ -51,8 +79,20 @@
   year      = {2026},
   abbr      = {ICLR},
   topic     = {Multilingual \& Multimodal Retrieval},
-  paper     = {https://arxiv.org/abs/2510.00671},
-  code      = {https://github.com/thongnt99/milco}
+  paper     = {https://iclr.cc/virtual/2026/poster/10008840},
+  code      = {https://github.com/thongnt99/milco},
+  arxiv     = {https://arxiv.org/abs/2510.00671}
+}
+
+@inproceedings{qiao2026better,
+  title     = {Better than Dense? Investigating the Natural Backward Compatibility of Learned Sparse Representations},
+  author    = {Qiao, Jingfen and Poerwawinata, Gabrielle and Nguyen, Thong and Ju, Jia-Huei and Yang, Eugene and Kanoulas, Evangelos and Yates, Andrew},
+  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year      = {2026},
+  abbr      = {SIGIR},
+  topic     = {Neural Ranking},
+  doi       = {10.1145/3805712.3809842},
+  paper     = {https://doi.org/10.1145/3805712.3809842}
 }
 
 @inproceedings{nguyen2025serval,
@@ -64,7 +104,8 @@
   topic     = {Multilingual \& Multimodal Retrieval},
   doi       = {10.18653/v1/2025.emnlp-main.1568},
   paper     = {https://aclanthology.org/2025.emnlp-main.1568/},
-  code      = {https://github.com/thongnt99/serval}
+  code      = {https://github.com/thongnt99/serval},
+  arxiv     = {https://arxiv.org/abs/2509.15432}
 }
 
 @inproceedings{ju2025rag,
@@ -88,7 +129,8 @@
   abbr      = {SIGIR},
   topic     = {Multilingual \& Multimodal Retrieval},
   doi       = {10.1145/3726302.3730285},
-  paper     = {https://doi.org/10.1145/3726302.3730285}
+  paper     = {https://doi.org/10.1145/3726302.3730285},
+  arxiv     = {https://arxiv.org/abs/2505.07730}
 }
 
 @inproceedings{ju2024diverse,
@@ -98,7 +140,9 @@
   year      = {2024},
   abbr      = {RepL4NLP @ ACL},
   topic     = {Neural Ranking},
-  type      = {workshop}
+  type      = {workshop},
+  paper     = {https://aclanthology.org/2024.repl4nlp-1.3/},
+  code      = {https://github.com/DylanJoo/readqg}
 }
 
 @inproceedings{ju2023improving,
@@ -109,7 +153,8 @@
   abbr      = {SIGIR},
   topic     = {Neural Ranking},
   paper     = {https://doi.org/10.1145/3539618.3592002},
-  slides    = {https://dylanjoo.github.io/files/sigir.2023.slide.pdf}
+  slides    = {https://dylanjoo.github.io/files/sigir.2023.slide.pdf},
+  arxiv     = {https://arxiv.org/abs/2304.13290}
 }
 
 @inproceedings{ju2023compare,
@@ -145,10 +190,31 @@
   topic     = {Neural Ranking},
   url       = {https://dl.acm.org/doi/10.1145/3404835.3463048},
   paper     = {https://doi.org/10.1145/3404835.3463048},
-  slides    = {https://dylanjoo.github.io/files/sigir.2021.slide.pdf}
+  slides    = {https://dylanjoo.github.io/files/sigir.2021.slide.pdf},
+  arxiv     = {https://arxiv.org/abs/2104.14133}
 }
 
 % ---------- Workshop / non-peer-reviewed ----------
+
+@inproceedings{ju2024neuclir,
+  title     = {{IRLab-AMS} at {TREC}'24 {NeuCLIR} Track},
+  author    = {Ju, Jia-Huei and Yates, Andrew},
+  booktitle = {Proceedings of the Thirty-Third Text REtrieval Conference (TREC 2024)},
+  year      = {2024},
+  abbr      = {TREC},
+  type      = {preprint},
+  paper     = {https://trec.nist.gov/pubs/trec33/papers/IRLab-Amsterdam.neuclir.pdf}
+}
+
+@inproceedings{ju2023product,
+  title     = {{CFDA \& CLIP} Labs at {TREC}'23 Product Search Track},
+  author    = {Ju, Jia-Huei and Lo, Chung-Kang and Lu, Yao-Cheng and Lai, Kuan-Lin and Huang, Cheng-Wei and Chiu, Wei-Hsin and Tsai, Ming-Feng and Wang, Chuan-Ju},
+  booktitle = {Proceedings of the Thirty-Second Text REtrieval Conference (TREC 2023)},
+  year      = {2023},
+  abbr      = {TREC},
+  type      = {preprint},
+  paper     = {https://trec.nist.gov/pubs/trec32/papers/CFDA_CLIP.P.pdf}
+}
 
 @inproceedings{ju2022cast,
   title     = {{CFDA \& CLIP} at {TREC} 2022 Conversational Assistance Track ({CAsT})},
@@ -156,7 +222,7 @@
   booktitle = {Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)},
   year      = {2022},
   abbr      = {TREC},
-  type      = {workshop},
+  type      = {preprint},
   paper     = {https://trec.nist.gov/pubs/trec31/papers/CFDA_CLIP.C.pdf},
   slides    = {https://dylanjoo.github.io/files/trec.cast.2022.slide.pdf}
 }
@@ -167,7 +233,7 @@
   booktitle = {Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)},
   year      = {2022},
   abbr      = {TREC},
-  type      = {workshop},
+  type      = {preprint},
   paper     = {https://trec.nist.gov/pubs/trec31/papers/CFDA_CLIP.N.pdf},
   slides    = {https://dylanjoo.github.io/files/trec.neuclir.2022.slide.pdf}
 }
@@ -178,7 +244,10 @@
   booktitle = {Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)},
   year      = {2021},
   abbr      = {TREC},
-  type      = {workshop},
+  type      = {preprint},
   paper     = {https://trec.nist.gov/pubs/trec30/papers/CFDA_CLIP-CAsT.pdf},
   slides    = {https://dylanjoo.github.io/files/trec.cast.2021.slide.pdf}
 }
+
+% ---------- Preprints (shown only under the "Preprints" tab) ----------
+

@@ -78,7 +78,7 @@ def main():
         }
 
         links = {}
-        for key in ("paper", "slides", "code", "poster", "demo", "video"):
+        for key in ("paper", "arxiv", "slides", "code", "poster", "demo", "video"):
             val = (entry.get(key) or "").strip()
             if val:
                 links[key] = val

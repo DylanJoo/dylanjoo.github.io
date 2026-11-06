@@ -1,3 +1,25 @@
+- id: hong2026sembridge
+  title: 'SemBridge: Language Transfer in Sparse Encoders via Multilingual Semantic
+    Bridge'
+  authors:
+  - Seongtae Hong
+  - Youngjoon Jang
+  - Jia-Huei Ju
+  - Hyeonseok Moon
+  - Heuiseok Lim
+  year: 2026
+  pubtype: conference
+  abbr: EMNLP
+  topic: Multilingual & Multimodal Retrieval
+  venue: Proceedings of the 2026 Conference on Empirical Methods in Natural Language
+    Processing
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://aclanthology.org/2026.emnlp-main.622/
+    arxiv: https://arxiv.org/abs/2605.26002
 - id: ju2026cover
   title: 'Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question
     Answerability'
@@ -18,7 +40,8 @@
   selected: false
   equal: []
   links:
-    paper: https://arxiv.org/abs/2605.28522
+    paper: https://doi.org/10.1145/3805712.3809752
+    arxiv: https://arxiv.org/abs/2605.28522
 - id: ju2026lancer
   title: 'LANCER: LLM Reranking for Nugget Coverage'
   authors:
@@ -38,7 +61,30 @@
   selected: false
   equal: []
   links:
-    paper: https://arxiv.org/abs/2601.22008
+    paper: https://doi.org/10.1007/978-3-032-21300-6_12
+    arxiv: https://arxiv.org/abs/2601.22008
+- id: mazuryk2026powerless
+  title: 'The Powerless Noise: How Experimental Settings Shape the Reported Power
+    of Noise'
+  authors:
+  - Michał Mazuryk
+  - Fleur Dolmans
+  - Louis Gehringer
+  - Ina Klaric
+  - Jia-Huei Ju
+  - Mohammad Aliannejadi
+  year: 2026
+  pubtype: conference
+  abbr: SIGIR
+  topic: Coverage-aware Retrieval & RAG
+  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and
+    Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://doi.org/10.1145/3805712.3808556
 - id: nguyen2026milco
   title: 'MILCO: Learned Sparse Retrieval Across Languages via a Multilingual Connector'
   authors:
@@ -58,8 +104,32 @@
   selected: false
   equal: []
   links:
-    paper: https://arxiv.org/abs/2510.00671
+    paper: https://iclr.cc/virtual/2026/poster/10008840
+    arxiv: https://arxiv.org/abs/2510.00671
     code: https://github.com/thongnt99/milco
+- id: qiao2026better
+  title: Better than Dense? Investigating the Natural Backward Compatibility of Learned
+    Sparse Representations
+  authors:
+  - Jingfen Qiao
+  - Gabrielle Poerwawinata
+  - Thong Nguyen
+  - Jia-Huei Ju
+  - Eugene Yang
+  - Evangelos Kanoulas
+  - Andrew Yates
+  year: 2026
+  pubtype: conference
+  abbr: SIGIR
+  topic: Neural Ranking
+  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and
+    Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://doi.org/10.1145/3805712.3809842
 - id: nguyen2025serval
   title: 'SERVAL: Surprisingly Effective Zero-Shot Visual Document Retrieval Powered
     by Large Vision and Language Models'
@@ -80,6 +150,7 @@
   equal: []
   links:
     paper: https://aclanthology.org/2025.emnlp-main.1568/
+    arxiv: https://arxiv.org/abs/2509.15432
     code: https://github.com/thongnt99/serval
 - id: ju2025rag
   title: Controlled Retrieval-Augmented Context Evaluation for Long-form RAG
@@ -121,6 +192,7 @@
   equal: []
   links:
     paper: https://doi.org/10.1145/3726302.3730285
+    arxiv: https://arxiv.org/abs/2505.07730
 - id: ju2024diverse
   title: Relevance-aware Diverse Query Generation for Out-of-domain Text Ranking
   authors:
@@ -138,7 +210,25 @@
   award: ''
   selected: false
   equal: []
-  links: {}
+  links:
+    paper: https://aclanthology.org/2024.repl4nlp-1.3/
+    code: https://github.com/DylanJoo/readqg
+- id: ju2024neuclir
+  title: IRLab-AMS at TREC'24 NeuCLIR Track
+  authors:
+  - Jia-Huei Ju
+  - Andrew Yates
+  year: 2024
+  pubtype: preprint
+  abbr: TREC
+  topic: ''
+  venue: Proceedings of the Thirty-Third Text REtrieval Conference (TREC 2024)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://trec.nist.gov/pubs/trec33/papers/IRLab-Amsterdam.neuclir.pdf
 - id: ju2023improving
   title: Improving Conversational Passage Re-ranking with View Ensemble
   authors:
@@ -158,6 +248,7 @@
   equal: []
   links:
     paper: https://doi.org/10.1145/3539618.3592002
+    arxiv: https://arxiv.org/abs/2304.13290
     slides: https://dylanjoo.github.io/files/sigir.2023.slide.pdf
 - id: ju2023compare
   title: A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals
@@ -206,6 +297,28 @@
     paper: https://aclanthology.org/2023.eacl-demo.7/
     slides: https://dylanjoo.github.io/files/eacl.2023.demo.slide.pdf
     demo: https://fish-web-fish.de.r.appspot.com/
+- id: ju2023product
+  title: CFDA & CLIP Labs at TREC'23 Product Search Track
+  authors:
+  - Jia-Huei Ju
+  - Chung-Kang Lo
+  - Yao-Cheng Lu
+  - Kuan-Lin Lai
+  - Cheng-Wei Huang
+  - Wei-Hsin Chiu
+  - Ming-Feng Tsai
+  - Chuan-Ju Wang
+  year: 2023
+  pubtype: preprint
+  abbr: TREC
+  topic: ''
+  venue: Proceedings of the Thirty-Second Text REtrieval Conference (TREC 2023)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://trec.nist.gov/pubs/trec32/papers/CFDA_CLIP.P.pdf
 - id: ju2022cast
   title: CFDA & CLIP at TREC 2022 Conversational Assistance Track (CAsT)
   authors:
@@ -215,7 +328,7 @@
   - Ming-Feng Tsai
   - Chuan-Ju Wang
   year: 2022
-  pubtype: workshop
+  pubtype: preprint
   abbr: TREC
   topic: ''
   venue: Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)
@@ -236,7 +349,7 @@
   - Ming-Feng Tsai
   - Chuan-Ju Wang
   year: 2022
-  pubtype: workshop
+  pubtype: preprint
   abbr: TREC
   topic: ''
   venue: Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)
@@ -265,6 +378,7 @@
   equal: []
   links:
     paper: https://doi.org/10.1145/3404835.3463048
+    arxiv: https://arxiv.org/abs/2104.14133
     slides: https://dylanjoo.github.io/files/sigir.2021.slide.pdf
 - id: ju2021trec
   title: Paraphrase Query Expansion and Multi-view Point-wise Ranking
@@ -277,7 +391,7 @@
   - Ming-Feng Tsai
   - Chuan-Ju Wang
   year: 2021
-  pubtype: workshop
+  pubtype: preprint
   abbr: TREC
   topic: ''
   venue: Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)

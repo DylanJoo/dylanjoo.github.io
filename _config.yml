@@ -194,6 +194,11 @@ collections:
 
 # Defaults
 defaults:
+  # Unlisted files: reachable by direct URL only (not in sitemap; robots.txt disallows crawling)
+  - scope:
+      path: "files/private"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""

@@ -1,22 +1,28 @@
 {% comment %}
   Minimal publication list (newest first, in the order of _data/publications.yml) with theme filters.
   Each paper's theme comes from the `topic` field in publications.bib.
-  Not shown: system demo papers (type = demo) and TREC notebook papers (abbr = TREC).
+  Not shown: system demo papers (type = demo).
+  Preprints (type = preprint, or @misc) appear only under the "Preprints" tab.
   To add or reorder filter tabs, edit `topics` below.
 {% endcomment %}
 {% assign topics = "Coverage-aware Retrieval & RAG|Multilingual & Multimodal Retrieval|Neural Ranking" | split: "|" %}
-{% assign pubs = site.data.publications | where_exp: "p", "p.pubtype != 'demo'" | where_exp: "p", "p.abbr != 'TREC'" %}
+{% assign pubs = site.data.publications | where_exp: "p", "p.pubtype != 'demo'" %}
 {% assign has_equal = pubs | where_exp: "p", "p.equal.size > 0" %}
+{% assign published = pubs | where_exp: "p", "p.pubtype != 'preprint'" %}
+{% assign preprints = pubs | where: "pubtype", "preprint" %}
 
 <div class="publications-list">
   <div class="pub-filters" role="group" aria-label="Filter publications by theme">
     <button type="button" class="pub-filter is-active" data-topic="all" aria-pressed="true">All</button>
     {%- for topic in topics -%}
-      {%- assign group = pubs | where: "topic", topic -%}
+      {%- assign group = published | where: "topic", topic -%}
       {%- if group.size > 0 %}
     <button type="button" class="pub-filter" data-topic="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
       {%- endif -%}
-    {%- endfor %}
+    {%- endfor -%}
+    {%- if preprints.size > 0 %}
+    <button type="button" class="pub-filter" data-topic="preprint" aria-pressed="false">Preprints</button>
+    {%- endif %}
   </div>
 
   {% if has_equal.size > 0 %}<p class="pub-note">* equal contribution</p>{% endif %}
@@ -25,7 +31,7 @@
 </div>
 
 <script>
-  /* Theme filter: "All" shows every paper; a theme shows only papers with that topic. */
+  /* Filters: "All" = every published paper; a theme = its published papers; "Preprints" = preprints only. */
   (function () {
     var list = document.querySelector('.publications-list');
     if (!list) { return; }
@@ -40,7 +46,9 @@
           b.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
         Array.prototype.forEach.call(entries, function (e) {
-          var show = topic === 'all' || e.getAttribute('data-topic') === topic;
+          var isPreprint = e.classList.contains('is-preprint');
+          var show = topic === 'preprint' ? isPreprint :
+            (!isPreprint && (topic === 'all' || e.getAttribute('data-topic') === topic));
           e.classList.toggle('is-hidden', !show);
         });
       });
