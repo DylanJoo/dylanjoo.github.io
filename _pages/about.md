@@ -16,10 +16,6 @@ Some of my work includes coverage-aware retrieval, claim-enhanced retrieval pipe
 
 Feel free to reach out at jju8[at]jh.edu.
 
-## News
-
-{% include news.html %}
-
 ## Publications
 
 {% include publications-list.html %}

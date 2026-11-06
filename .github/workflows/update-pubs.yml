@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install bibtexparser pyyaml
+      - run: pip install "bibtexparser<2" pyyaml
 
       - run: python scripts/bib2yaml.py
 
