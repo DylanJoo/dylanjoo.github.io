@@ -43,7 +43,7 @@
   - Andrew Yates
   year: 2025
   pubtype: conference
-  abbr: EMNLP
+  abbr: EMNLP Findings
   venue: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
   abstract: ''
   award: ''
@@ -62,7 +62,7 @@
   - Chuan-Ju Wang
   year: 2024
   pubtype: workshop
-  abbr: ACL
+  abbr: RepL4NLP @ ACL
   venue: Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)
   abstract: ''
   award: ''

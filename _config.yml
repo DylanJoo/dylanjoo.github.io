@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Dylan Ju"
   avatar           : "dylan_2024.jpg"
-  bio              : "PhD student <br> @ IRLab, UvA"
-  location         : "Amsterdam, Netherlands"
+  bio              : "PhD student <br> @ Johns Hopkins University"
+  location         : "Baltimore, MD, USA"
   employer         :
-  pubmed           : "#"
+  pubmed           :
   googlescholar    : "https://scholar.google.com.tw/citations?user=opuX9nEAAAAJ&hl=zh-TW&oi=ao"
-  email            : "jhju@uva.nl"
+  email            : "jju8@jh.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

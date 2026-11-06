@@ -1,0 +1,9 @@
+{% comment %}
+  News list. Data: _data/news.yml, newest first. Shows the first `include.limit` items (default 6).
+{% endcomment %}
+{% assign limit = include.limit | default: 6 %}
+<ul class="news-list">
+{% for item in site.data.news limit: limit %}
+  <li><span class="news-date">{{ item.date }}</span> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
