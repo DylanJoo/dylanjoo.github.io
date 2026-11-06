@@ -5,7 +5,7 @@
 .publications-list {
 
   .pub-note {
-    font-size: $type-size-7;
+    font-size: 0.85em;
     color: $gray;
     margin: 0 0 1em;
   }
@@ -17,8 +17,8 @@
   }
 
   .pub-entry {
-    margin-bottom: 1.1em;
-    font-size: $type-size-6;
+    margin-bottom: 1.2em;
+    font-size: $type-size-5;
     line-height: 1.5;
   }
 
@@ -34,6 +34,7 @@
 
   .pub-meta {
     color: $gray;
+    font-size: 0.9em;
 
     a {
       text-decoration: none;
