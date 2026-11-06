@@ -1,0 +1,139 @@
+/* ==========================================================================
+   Dark mode
+   Applied when the visitor's system prefers dark (unless they picked light with
+   the toggle), or when they pick dark with the toggle. See _includes/head/custom.html.
+   ========================================================================== */
+
+$dm-bg          : #16181b;
+$dm-surface     : #1e2125;
+$dm-surface-2   : #262a2f;
+$dm-border      : #2e3338;
+$dm-text        : #d4d7da;
+$dm-text-strong : #f0f2f4;
+$dm-muted       : #9aa0a6;
+$dm-link        : #6cc3dc;
+
+@mixin dark-theme {
+  color-scheme: dark;
+  background-color: $dm-bg;
+
+  body { color: $dm-text; background-color: $dm-bg; }
+
+  h1, h2, h3, h4, h5, h6 { color: $dm-text-strong; }
+
+  a { color: $dm-link; }
+  a:hover { color: mix(#fff, $dm-link, 30%); }
+
+  hr,
+  .page__content h2,
+  .masthead,
+  .page__share,
+  .page__related,
+  .archive__subtitle { border-color: $dm-border; }
+
+  /* top bar */
+  .greedy-nav { background: $dm-bg; }
+  .greedy-nav a { color: $dm-muted; }
+  .greedy-nav a:hover { color: $dm-text-strong; }
+  .greedy-nav .visible-links a:before { background: $dm-border; }
+  .greedy-nav button { background-color: $dm-surface-2; }
+  .greedy-nav .hidden-links { background: $dm-surface; border-color: $dm-border; }
+  .greedy-nav .hidden-links:before { border-color: $dm-border transparent; }
+  .greedy-nav .hidden-links:after { border-color: $dm-surface transparent; }
+  .greedy-nav .hidden-links li { border-color: $dm-border; }
+
+  /* sidebar */
+  .author__name { color: $dm-text-strong; }
+  .author__avatar img { border-color: $dm-border; }
+  .author__urls { background: $dm-bg; border-color: $dm-border; }
+  .author__urls:before { border-color: $dm-border transparent; }
+  .author__urls:after { border-color: $dm-bg transparent; }
+  .author__urls li,
+  .author__urls a { color: $dm-text; }
+  .fa-github,
+  .author__urls .fa-map-marker { color: $dm-text; } /* near-black by default */
+
+  .btn--inverse { background-color: $dm-surface-2; border-color: $dm-border !important; color: $dm-text !important; }
+  .btn--inverse:hover { background-color: lighten($dm-surface-2, 6%); color: $dm-text-strong !important; }
+
+  /* footer */
+  .page__footer { background-color: $dm-surface; border-color: $dm-border; color: $dm-muted; }
+
+  /* publications */
+  .publications-list {
+    .pub-title { color: $dm-text-strong; }
+    .pub-authors { color: $dm-text; }
+    .pub-authors strong { color: $dm-text-strong; }
+    .pub-meta, .pub-note { color: $dm-muted; }
+
+    .pub-filter {
+      background: $dm-surface-2;
+      color: $dm-text;
+
+      &:hover { background: lighten($dm-surface-2, 6%); color: $dm-text-strong; }
+
+      &.is-active {
+        background: rgba($dm-link, 0.15);
+        border-color: rgba($dm-link, 0.45);
+        color: $dm-link;
+      }
+    }
+  }
+
+  .theme-toggle { color: $dm-muted; }
+  .theme-toggle:hover { color: $dm-text-strong; }
+}
+
+html[data-theme="dark"] {
+  @include dark-theme;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    @include dark-theme;
+  }
+}
+
+/* Light/dark toggle in the top bar (sits outside #site-nav so the greedy-nav script ignores it) */
+.masthead__menu { position: relative; }
+
+/* Make room when the greedy-nav overflow button is showing (narrow screens). */
+.masthead__menu:has(#site-nav > button:not(.hidden)) .theme-toggle { right: 3.25rem; }
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 11;
+  padding: 0.35rem;
+  border: 0;
+  background: none;
+  color: $gray;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover { color: $darker-gray; }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  .theme-toggle__sun { display: none; }
+}
+
+/* Show the sun while dark mode is on (clicking it switches to light). */
+html[data-theme="dark"] .theme-toggle {
+  .theme-toggle__sun { display: inline; }
+  .theme-toggle__moon { display: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .theme-toggle {
+    .theme-toggle__sun { display: inline; }
+    .theme-toggle__moon { display: none; }
+  }
+}

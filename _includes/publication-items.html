@@ -1,6 +1,6 @@
 <ul class="pub-items">
 {% for pub in include.pubs %}
-  <li class="pub-entry">
+  <li class="pub-entry" data-topic="{{ pub.topic | slugify }}">
     <span class="pub-title">{{ pub.title }}</span>
     <span class="pub-authors">
       {%- for author in pub.authors -%}
