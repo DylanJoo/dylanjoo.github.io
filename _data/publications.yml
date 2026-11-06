@@ -10,6 +10,7 @@
   year: 2026
   pubtype: conference
   abbr: SIGIR
+  topic: Coverage-aware Retrieval & RAG
   venue: Proceedings of the 49th International ACM SIGIR Conference on Research and
     Development in Information Retrieval
   abstract: ''
@@ -29,6 +30,7 @@
   year: 2026
   pubtype: conference
   abbr: ECIR
+  topic: Coverage-aware Retrieval & RAG
   venue: Advances in Information Retrieval -- Proceedings of the 48th European Conference
     on Information Retrieval (ECIR 2026)
   abstract: ''
@@ -37,6 +39,48 @@
   equal: []
   links:
     paper: https://arxiv.org/abs/2601.22008
+- id: nguyen2026milco
+  title: 'MILCO: Learned Sparse Retrieval Across Languages via a Multilingual Connector'
+  authors:
+  - Thong Nguyen
+  - Yibin Lei
+  - Jia-Huei Ju
+  - Eugene Yang
+  - Andrew Yates
+  year: 2026
+  pubtype: conference
+  abbr: ICLR
+  topic: Multilingual & Multimodal Retrieval
+  venue: The Fourteenth International Conference on Learning Representations (ICLR
+    2026)
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://arxiv.org/abs/2510.00671
+    code: https://github.com/thongnt99/milco
+- id: nguyen2025serval
+  title: 'SERVAL: Surprisingly Effective Zero-Shot Visual Document Retrieval Powered
+    by Large Vision and Language Models'
+  authors:
+  - Thong Nguyen
+  - Yibin Lei
+  - Jia-Huei Ju
+  - Andrew Yates
+  year: 2025
+  pubtype: conference
+  abbr: EMNLP
+  topic: Multilingual & Multimodal Retrieval
+  venue: Proceedings of the 2025 Conference on Empirical Methods in Natural Language
+    Processing
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://aclanthology.org/2025.emnlp-main.1568/
+    code: https://github.com/thongnt99/serval
 - id: ju2025rag
   title: Controlled Retrieval-Augmented Context Evaluation for Long-form RAG
   authors:
@@ -47,6 +91,7 @@
   year: 2025
   pubtype: conference
   abbr: EMNLP
+  topic: Coverage-aware Retrieval & RAG
   venue: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
   abstract: ''
   award: ''
@@ -55,6 +100,27 @@
   links:
     paper: https://aclanthology.org/2025.findings-emnlp.1151/
     code: https://github.com/DylanJoo/crux
+- id: qiao2025reproducibility
+  title: Reproducibility, Replicability, and Insights into Visual Document Retrieval
+    with Late Interaction
+  authors:
+  - Jingfen Qiao
+  - Jia-Huei Ju
+  - Xinyu Ma
+  - Evangelos Kanoulas
+  - Andrew Yates
+  year: 2025
+  pubtype: conference
+  abbr: SIGIR
+  topic: Multilingual & Multimodal Retrieval
+  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and
+    Development in Information Retrieval
+  abstract: ''
+  award: ''
+  selected: false
+  equal: []
+  links:
+    paper: https://doi.org/10.1145/3726302.3730285
 - id: ju2024diverse
   title: Relevance-aware Diverse Query Generation for Out-of-domain Text Ranking
   authors:
@@ -66,6 +132,7 @@
   year: 2024
   pubtype: workshop
   abbr: RepL4NLP @ ACL
+  topic: Neural Ranking
   venue: Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)
   abstract: ''
   award: ''
@@ -82,6 +149,7 @@
   year: 2023
   pubtype: conference
   abbr: SIGIR
+  topic: Neural Ranking
   venue: Proceedings of the 46th International ACM SIGIR Conference on Research and
     Development in Information Retrieval
   abstract: ''
@@ -103,6 +171,7 @@
   year: 2023
   pubtype: conference
   abbr: ACL
+  topic: Neural Ranking
   venue: Proceedings of the 61st Annual Meeting of the Association for Computational
     Linguistics
   abstract: ''
@@ -124,6 +193,7 @@
   year: 2023
   pubtype: demo
   abbr: EACL
+  topic: ''
   venue: 'Proceedings of the 17th Conference of the European Chapter of the Association
     for Computational Linguistics: System Demonstrations'
   abstract: ''
@@ -147,6 +217,7 @@
   year: 2022
   pubtype: workshop
   abbr: TREC
+  topic: ''
   venue: Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)
   abstract: ''
   award: ''
@@ -167,6 +238,7 @@
   year: 2022
   pubtype: workshop
   abbr: TREC
+  topic: ''
   venue: Proceedings of the Thirty-First Text REtrieval Conference (TREC 2022)
   abstract: ''
   award: ''
@@ -184,6 +256,7 @@
   year: 2021
   pubtype: conference
   abbr: SIGIR
+  topic: Neural Ranking
   venue: Proceedings of the 44th International ACM SIGIR Conference on Research and
     Development in Information Retrieval
   abstract: ''
@@ -206,6 +279,7 @@
   year: 2021
   pubtype: workshop
   abbr: TREC
+  topic: ''
   venue: Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)
   abstract: ''
   award: ''

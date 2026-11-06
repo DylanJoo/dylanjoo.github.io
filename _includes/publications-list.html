@@ -1,30 +1,27 @@
 {% comment %}
-  Minimal publication list, in the order of _data/publications.yml (generated from publications.bib, newest first).
-  System demo papers (type = demo) and TREC notebook papers (abbr = TREC) are not shown.
+  Minimal publication list grouped by research theme (the `topic` field in publications.bib).
+  Within a theme, papers keep the order of _data/publications.yml (newest first).
+  Not shown: system demo papers (type = demo) and TREC notebook papers (abbr = TREC).
+  To add or reorder themes, edit `topics` below. Papers without a topic go under "Other".
 {% endcomment %}
+{% assign topics = "Coverage-aware Retrieval & RAG|Multilingual & Multimodal Retrieval|Neural Ranking" | split: "|" %}
 {% assign pubs = site.data.publications | where_exp: "p", "p.pubtype != 'demo'" | where_exp: "p", "p.abbr != 'TREC'" %}
+{% assign untagged = pubs | where: "topic", "" %}
 {% assign has_equal = pubs | where_exp: "p", "p.equal.size > 0" %}
 
 <div class="publications-list">
   {% if has_equal.size > 0 %}<p class="pub-note">* equal contribution</p>{% endif %}
 
-  <ul class="pub-items">
-  {% for pub in pubs %}
-    <li class="pub-entry">
-      <span class="pub-title">{{ pub.title }}</span>
-      <span class="pub-authors">
-        {%- for author in pub.authors -%}
-          {%- if author contains "Jia-Huei" -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
-          {%- if pub.equal contains author -%}*{%- endif -%}
-          {%- unless forloop.last -%}, {% endunless -%}
-        {%- endfor -%}
-      </span>
-      <span class="pub-meta">
-        <em>{% if pub.abbr != "" %}{{ pub.abbr }}{% else %}{{ pub.venue }}{% endif %} {{ pub.year }}</em>
-        {%- if pub.award != "" %} · <span class="pub-award">{{ pub.award }}</span>{% endif -%}
-        {%- for link in pub.links %} · <a href="{{ link[1] }}">{{ link[0] }}</a>{% endfor -%}
-      </span>
-    </li>
+  {% for topic in topics %}
+    {% assign group = pubs | where: "topic", topic %}
+    {% if group.size > 0 %}
+      <h3 class="pub-group">{{ topic }}</h3>
+      {% include publication-items.html pubs=group %}
+    {% endif %}
   {% endfor %}
-  </ul>
+
+  {% if untagged.size > 0 %}
+    <h3 class="pub-group">Other</h3>
+    {% include publication-items.html pubs=untagged %}
+  {% endif %}
 </div>

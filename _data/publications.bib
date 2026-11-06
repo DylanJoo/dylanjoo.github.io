@@ -4,6 +4,8 @@
 %
 % Supported custom fields:
 %   abbr    = {SIGIR}           venue abbreviation shown as badge
+%   topic   = {Neural Ranking}  section heading on the site (order set in
+%                               _includes/publications-list.html)
 %   type    = {workshop}        override auto-detected type
 %                               (conference | journal | demo | workshop | preprint)
 %   paper   = {url}             PDF / paper link
@@ -26,6 +28,7 @@
   booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year      = {2026},
   abbr      = {SIGIR},
+  topic     = {Coverage-aware Retrieval \& RAG},
   doi       = {10.1145/3805712.3809752},
   paper     = {https://arxiv.org/abs/2605.28522}
 }
@@ -36,8 +39,32 @@
   booktitle = {Advances in Information Retrieval -- Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)},
   year      = {2026},
   abbr      = {ECIR},
+  topic     = {Coverage-aware Retrieval \& RAG},
   doi       = {10.1007/978-3-032-21300-6_12},
   paper     = {https://arxiv.org/abs/2601.22008}
+}
+
+@inproceedings{nguyen2026milco,
+  title     = {{MILCO}: Learned Sparse Retrieval Across Languages via a Multilingual Connector},
+  author    = {Nguyen, Thong and Lei, Yibin and Ju, Jia-Huei and Yang, Eugene and Yates, Andrew},
+  booktitle = {The Fourteenth International Conference on Learning Representations (ICLR 2026)},
+  year      = {2026},
+  abbr      = {ICLR},
+  topic     = {Multilingual \& Multimodal Retrieval},
+  paper     = {https://arxiv.org/abs/2510.00671},
+  code      = {https://github.com/thongnt99/milco}
+}
+
+@inproceedings{nguyen2025serval,
+  title     = {{SERVAL}: Surprisingly Effective Zero-Shot Visual Document Retrieval Powered by Large Vision and Language Models},
+  author    = {Nguyen, Thong and Lei, Yibin and Ju, Jia-Huei and Yates, Andrew},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2025},
+  abbr      = {EMNLP},
+  topic     = {Multilingual \& Multimodal Retrieval},
+  doi       = {10.18653/v1/2025.emnlp-main.1568},
+  paper     = {https://aclanthology.org/2025.emnlp-main.1568/},
+  code      = {https://github.com/thongnt99/serval}
 }
 
 @inproceedings{ju2025rag,
@@ -47,9 +74,21 @@
   year      = {2025},
   pages     = {21102--21121},
   abbr      = {EMNLP},
+  topic     = {Coverage-aware Retrieval \& RAG},
   doi       = {10.18653/v1/2025.findings-emnlp.1151},
   paper     = {https://aclanthology.org/2025.findings-emnlp.1151/},
   code      = {https://github.com/DylanJoo/crux}
+}
+
+@inproceedings{qiao2025reproducibility,
+  title     = {Reproducibility, Replicability, and Insights into Visual Document Retrieval with Late Interaction},
+  author    = {Qiao, Jingfen and Ju, Jia-Huei and Ma, Xinyu and Kanoulas, Evangelos and Yates, Andrew},
+  booktitle = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year      = {2025},
+  abbr      = {SIGIR},
+  topic     = {Multilingual \& Multimodal Retrieval},
+  doi       = {10.1145/3726302.3730285},
+  paper     = {https://doi.org/10.1145/3726302.3730285}
 }
 
 @inproceedings{ju2024diverse,
@@ -58,6 +97,7 @@
   booktitle = {Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)},
   year      = {2024},
   abbr      = {RepL4NLP @ ACL},
+  topic     = {Neural Ranking},
   type      = {workshop}
 }
 
@@ -67,6 +107,7 @@
   booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year      = {2023},
   abbr      = {SIGIR},
+  topic     = {Neural Ranking},
   paper     = {https://doi.org/10.1145/3539618.3592002},
   slides    = {https://dylanjoo.github.io/files/sigir.2023.slide.pdf}
 }
@@ -77,6 +118,7 @@
   booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics},
   year      = {2023},
   abbr      = {ACL},
+  topic     = {Neural Ranking},
   paper     = {https://aclanthology.org/2023.acl-long.800/},
   slides    = {https://dylanjoo.github.io/files/acl.2023.slide.pdf}
 }
@@ -100,6 +142,7 @@
   booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year      = {2021},
   abbr      = {SIGIR},
+  topic     = {Neural Ranking},
   url       = {https://dl.acm.org/doi/10.1145/3404835.3463048},
   paper     = {https://doi.org/10.1145/3404835.3463048},
   slides    = {https://dylanjoo.github.io/files/sigir.2021.slide.pdf}

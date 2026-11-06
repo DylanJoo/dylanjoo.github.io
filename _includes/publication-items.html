@@ -1,0 +1,19 @@
+<ul class="pub-items">
+{% for pub in include.pubs %}
+  <li class="pub-entry">
+    <span class="pub-title">{{ pub.title }}</span>
+    <span class="pub-authors">
+      {%- for author in pub.authors -%}
+        {%- if author contains "Jia-Huei" -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+        {%- if pub.equal contains author -%}*{%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+    </span>
+    <span class="pub-meta">
+      <em>{% if pub.abbr != "" %}{{ pub.abbr }}{% else %}{{ pub.venue }}{% endif %} {{ pub.year }}</em>
+      {%- if pub.award != "" %} · <span class="pub-award">{{ pub.award }}</span>{% endif -%}
+      {%- for link in pub.links %} · <a href="{{ link[1] }}">{{ link[0] }}</a>{% endfor -%}
+    </span>
+  </li>
+{% endfor %}
+</ul>

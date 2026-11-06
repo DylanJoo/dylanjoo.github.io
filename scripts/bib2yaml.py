@@ -65,6 +65,7 @@ def main():
             "year": int(entry.get("year", 0)),
             "pubtype": pubtype,
             "abbr": strip_braces(entry.get("abbr", "")),
+            "topic": strip_braces(entry.get("topic", "")),
             "venue": venue,
             "abstract": (entry.get("abstract") or "").strip(),
             "award": strip_braces(entry.get("award", "")),
