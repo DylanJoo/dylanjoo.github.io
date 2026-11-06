@@ -2,3 +2,5 @@ _site/
 
 
 *.swp
+vendor/
+.bundle/

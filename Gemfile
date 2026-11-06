@@ -27,3 +27,6 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+
+# Local preview on Ruby 3.3: Jekyll 3.9 breaks with logger >= 1.6
+gem "logger", "< 1.6"

@@ -1,5 +1,6 @@
 {% comment %}
-  Minimal publication list grouped by research theme (the `topic` field in publications.bib).
+  Minimal publication list grouped by research theme (the `topic` field in publications.bib),
+  with filter buttons (All + one per theme).
   Within a theme, papers keep the order of _data/publications.yml (newest first).
   Not shown: system demo papers (type = demo) and TREC notebook papers (abbr = TREC).
   To add or reorder themes, edit `topics` below. Papers without a topic go under "Other".
@@ -10,18 +11,59 @@
 {% assign has_equal = pubs | where_exp: "p", "p.equal.size > 0" %}
 
 <div class="publications-list">
+  <div class="pub-filters" role="group" aria-label="Filter publications by theme">
+    <button type="button" class="pub-filter is-active" data-topic="all" aria-pressed="true">All</button>
+    {%- for topic in topics -%}
+      {%- assign group = pubs | where: "topic", topic -%}
+      {%- if group.size > 0 %}
+    <button type="button" class="pub-filter" data-topic="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if untagged.size > 0 %}
+    <button type="button" class="pub-filter" data-topic="other" aria-pressed="false">Other</button>
+    {%- endif %}
+  </div>
+
   {% if has_equal.size > 0 %}<p class="pub-note">* equal contribution</p>{% endif %}
 
   {% for topic in topics %}
     {% assign group = pubs | where: "topic", topic %}
     {% if group.size > 0 %}
-      <h3 class="pub-group">{{ topic }}</h3>
-      {% include publication-items.html pubs=group %}
+      <section class="pub-section" data-topic="{{ topic | slugify }}">
+        <h3 class="pub-group">{{ topic }}</h3>
+        {% include publication-items.html pubs=group %}
+      </section>
     {% endif %}
   {% endfor %}
 
   {% if untagged.size > 0 %}
-    <h3 class="pub-group">Other</h3>
-    {% include publication-items.html pubs=untagged %}
+    <section class="pub-section" data-topic="other">
+      <h3 class="pub-group">Other</h3>
+      {% include publication-items.html pubs=untagged %}
+    </section>
   {% endif %}
 </div>
+
+<script>
+  /* Theme filter: "All" shows every section with headings; a theme shows only its section. */
+  (function () {
+    var list = document.querySelector('.publications-list');
+    if (!list) { return; }
+    var buttons = list.querySelectorAll('.pub-filter');
+    var sections = list.querySelectorAll('.pub-section');
+    Array.prototype.forEach.call(buttons, function (btn) {
+      btn.addEventListener('click', function () {
+        var topic = btn.getAttribute('data-topic');
+        Array.prototype.forEach.call(buttons, function (b) {
+          var on = b === btn;
+          b.classList.toggle('is-active', on);
+          b.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        list.classList.toggle('is-filtered', topic !== 'all');
+        Array.prototype.forEach.call(sections, function (s) {
+          s.hidden = topic !== 'all' && s.getAttribute('data-topic') !== topic;
+        });
+      });
+    });
+  })();
+</script>

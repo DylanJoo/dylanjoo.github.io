@@ -1,8 +1,44 @@
 /* ==========================================================================
-   Publications list (minimal)
+   Publications list (minimal, grouped by theme with filter buttons)
    ========================================================================== */
 
 .publications-list {
+
+  .pub-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0.5em 0 1.5em;
+  }
+
+  .pub-filter {
+    font-family: inherit;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 0.35em 0.95em;
+    border: 1px solid $light-gray;
+    border-radius: 999px;
+    background: transparent;
+    color: $dark-gray;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      border-color: $dark-gray;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $link-color;
+      outline-offset: 2px;
+    }
+
+    &.is-active {
+      background: $darker-gray;
+      border-color: $darker-gray;
+      color: #fff;
+    }
+  }
 
   .pub-note {
     font-size: 0.85em;
@@ -11,8 +47,20 @@
   }
 
   .pub-group {
-    font-size: $type-size-5;
-    margin: 1.8em 0 0.8em;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $gray;
+    margin: 2em 0 1em;
+  }
+
+  .pub-section:first-of-type .pub-group {
+    margin-top: 0.5em;
+  }
+
+  &.is-filtered .pub-group {
+    display: none;
   }
 
   .pub-items {
@@ -22,9 +70,9 @@
   }
 
   .pub-entry {
-    margin-bottom: 1.2em;
+    margin-bottom: 1.3em;
     font-size: $type-size-5;
-    line-height: 1.5;
+    line-height: 1.55;
   }
 
   .pub-title,
@@ -34,12 +82,23 @@
   }
 
   .pub-title {
-    font-weight: 600;
+    font-weight: 400;
+    color: $darker-gray;
+  }
+
+  .pub-authors {
+    font-size: 0.9em;
+    color: $dark-gray;
+
+    strong {
+      font-weight: 600;
+      color: $darker-gray;
+    }
   }
 
   .pub-meta {
     color: $gray;
-    font-size: 0.9em;
+    font-size: 0.85em;
 
     a {
       text-decoration: none;
