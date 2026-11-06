@@ -9,7 +9,8 @@
   year: 2026
   pubtype: conference
   abbr: ECIR
-  venue: Advances in Information Retrieval -- Proceedings of the 48th European Conference on Information Retrieval (ECIR 2026)
+  venue: Advances in Information Retrieval -- Proceedings of the 48th European Conference
+    on Information Retrieval (ECIR 2026)
   abstract: ''
   award: ''
   selected: false
@@ -17,7 +18,8 @@
   links:
     paper: https://arxiv.org/abs/2601.22008
 - id: ju2026cover
-  title: 'Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question Answerability'
+  title: 'Search for Coverage: Learning Coverage-Aware Retrieval with Augmented Sub-Question
+    Answerability'
   authors:
   - Jia-Huei Ju
   - Eugene Yang
@@ -27,7 +29,8 @@
   year: 2026
   pubtype: conference
   abbr: SIGIR
-  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval
+  venue: Proceedings of the 49th International ACM SIGIR Conference on Research and
+    Development in Information Retrieval
   abstract: ''
   award: ''
   selected: false
