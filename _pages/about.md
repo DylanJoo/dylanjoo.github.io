@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
   - /publications/
 ---
-Hi! I’m Jia-Huei (Dylan) Ju, a PhD student at Johns Hopkins University, co-advised by [Andrew Yates](https://andrewyates.net/) and [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/). I started my PhD in 2024 at the [IRLab](https://irlab.science.uva.nl/), University of Amsterdam, before transferring to JHU.
+Hi! I’m Jia-Huei (Dylan) Ju, a PhD student at Johns Hopkins University, co-advised by Dr. [Andrew Yates](https://andrewyates.net/) and Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/). I started my PhD in 2024 at the [IRLab](https://irlab.science.uva.nl/) at University of Amsterdam, where I was supported by Hybrid Intelligence Centre and advisored by Dr. Andrew Yates, Prof. Suzan Verberne and Prof. Maarten de Rijke, before transferring to JHU.
 
 My research is in information retrieval and natural language processing, with a focus on retrieval-augmented generation (RAG). I design retrieval systems that efficiently augment knowledge for agents. I'm particularly interested in how knowledge should be represented, and how human can use and acquire knowledge more efficiently.
 
