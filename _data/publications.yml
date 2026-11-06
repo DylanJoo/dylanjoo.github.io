@@ -86,7 +86,7 @@
   selected: false
   equal: []
   links:
-    paper: https://dylanjoo.github.io/files/sigir.2023.paper.pdf
+    paper: https://doi.org/10.1145/3539618.3592002
     slides: https://dylanjoo.github.io/files/sigir.2023.slide.pdf
 - id: ju2023compare
   title: A Compare-and-contrast Multistage Pipeline for Uncovering Financial Signals
@@ -107,7 +107,7 @@
   selected: false
   equal: []
   links:
-    paper: https://dylanjoo.github.io/files/acl.2023.paper.pdf
+    paper: https://aclanthology.org/2023.acl-long.800/
     slides: https://dylanjoo.github.io/files/acl.2023.slide.pdf
 - id: ju2023fish
   title: 'FISH: A Financial Interactive System for Signal Highlighting'
@@ -130,7 +130,7 @@
   - Jia-Huei Ju
   - Ta-Wei Huang
   links:
-    paper: https://dylanjoo.github.io/files/eacl.2023.demo.paper.pdf
+    paper: https://aclanthology.org/2023.eacl-demo.7/
     slides: https://dylanjoo.github.io/files/eacl.2023.demo.slide.pdf
     demo: https://fish-web-fish.de.r.appspot.com/
 - id: ju2022cast
@@ -188,7 +188,7 @@
   selected: false
   equal: []
   links:
-    paper: https://dylanjoo.github.io/files/sigir.2021.paper.pdf
+    paper: https://doi.org/10.1145/3404835.3463048
     slides: https://dylanjoo.github.io/files/sigir.2021.slide.pdf
 - id: ju2021trec
   title: Paraphrase Query Expansion and Multi-view Point-wise Ranking
